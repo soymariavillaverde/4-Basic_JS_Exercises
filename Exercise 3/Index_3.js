@@ -1,4 +1,5 @@
-let div= document.getElementById("textContainer")
+let textToHTML= document.getElementById("textContainer")
 let usrName = prompt ("Por favor, dime tu nombre")
 
-document.write('Hello ' + usrName + '!')
+
+textToHTML.innerHTML = "<h3>Hello " + usrName + "!</h3>";
