@@ -7,7 +7,7 @@
 
 
         resultContainer.innerHTML = "<h3> The biggest number is " + result + "!</h3>";
-}
+    }
 
 
         //-------------------------------- ANOTHER SOLUTION -------------------------------//
