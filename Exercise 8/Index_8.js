@@ -4,7 +4,7 @@ function checkNumberOfA(){
     let findCharacter = phraseToString.match(/[a]/gi).length;
     
 
-    if(findCharacter == false){
+    if(findCharacter == null){
         resultContainer.innerHTML = "<h3>There are no a's on the phrase</h3>";
     }
     
