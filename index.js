@@ -22,16 +22,16 @@
     document.write('La suma de tus números es: ' + suma + '!') */
 
 
-                        /*{} <input id="InputNum1" type="number" placeholder="Número 1">
-                        <input id="InputNum2" type="number" placeholder="Número 2">
-                        <button onclick="plus()">Sumar</button>
-                        <section id="PlusResultContainer"></section> <br></br>
+                        /*{} <input id="input1" type="number" placeholder="Número 1">
+                        <input id="input2" type="number" placeholder="Número 2">
+                        <button onclick="plus()">Add</button>
+                        <section id="resultContainer"></section>
 
                         function plus() {
-                            let number1 = parseInt(document.getElementById('InputNum1').value);
-                            let number2 = parseInt(document.getElementById('InputNum2').value);
+                            let number1 = parseInt(document.getElementById('input1').value);
+                            let number2 = parseInt(document.getElementById('input2').value);
                             let plusResult = (number1+number2);
-                            PlusResultContainer.innerHTML = `<p>El resultado es: ${plusResult}</p>`;
+                            resultContainer.innerHTML = `<p>El resultado es: ${plusResult}</p>`;
                         };
                     }*/
 
