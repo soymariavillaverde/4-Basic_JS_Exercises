@@ -5,7 +5,7 @@ function checkVowells(){
     
 
     if(findVowells == null){
-        resultContainer.innerHTML = "<h3>There are no vowells on the phrase</h3>";
+        resultContainer.innerHTML = "<h3>There are no vowells in the phrase</h3>";
     }
     
     else{
